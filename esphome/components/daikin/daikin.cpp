@@ -107,6 +107,8 @@ uint16_t DaikinClimate::fan_speed_() {
       fan_speed = DAIKIN_FAN_5 << 8;
       break;
     case climate::CLIMATE_FAN_AUTO:
+      fan_speed = DAIKIN_FAN_AUTO << 8;
+      break;
     default:
       fan_speed = DAIKIN_FAN_AUTO << 8;
   }
