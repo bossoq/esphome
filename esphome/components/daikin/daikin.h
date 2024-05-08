@@ -7,8 +7,8 @@ namespace daikin {
 
 // Values for Daikin ARC43XXX IR Controllers
 // Temperature
-const uint8_t DAIKIN_TEMP_MIN = 10;  // Celsius
-const uint8_t DAIKIN_TEMP_MAX = 30;  // Celsius
+const uint8_t DAIKIN_TEMP_MIN = 16;  // Celsius
+const uint8_t DAIKIN_TEMP_MAX = 32;  // Celsius
 
 // Modes
 const uint8_t DAIKIN_MODE_AUTO = 0x00;

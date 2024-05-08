@@ -21,7 +21,7 @@ void DaikinClimate::transmit_state() {
 
   // Calculate checksum
   for (int i = 16; i < 34; i++) {
-    remote_state[34] += remote_state[i];
+    remote_state[35] += remote_state[i];
   }
 
   auto transmit = this->transmitter_->transmit();
