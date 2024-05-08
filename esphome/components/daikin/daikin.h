@@ -38,7 +38,7 @@ const uint8_t DAIKIN_PRESET_ECONO_ON = 0x04;
 const uint8_t DAIKIN_PRESET_SENSOR_ON = 0x08;
 
 // IR Transmission
-const uint32_t DAIKIN_IR_FREQUENCY = 38000;
+const uint32_t DAIKIN_IR_FREQUENCY = 36000;
 const uint32_t DAIKIN_HEADER_MARK = 3360;
 const uint32_t DAIKIN_HEADER_SPACE = 1760;
 const uint32_t DAIKIN_BIT_MARK = 520;
