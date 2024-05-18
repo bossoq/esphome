@@ -57,6 +57,7 @@ climate::ClimateTraits MitsubishiClimate::traits() {
   traits.set_visual_max_temperature(MITSUBISHI_TEMP_MAX);
   traits.set_visual_temperature_step(1.0f);
   traits.set_supported_modes({climate::CLIMATE_MODE_OFF});
+  traits.set_supports_current_temperature(true);
 
   if (this->supports_cool_)
     traits.add_supported_mode(climate::CLIMATE_MODE_COOL);
